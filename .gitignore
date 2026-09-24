@@ -1,0 +1,8 @@
+# Secrets - the page password lives here, never commit it
+.env
+# Plaintext source - NEVER commit: this repo is PUBLIC (GitHub Pages on the free plan).
+# Only the encrypted output in public/ may be committed.
+public-encrypted/
+decrypted/
+node_modules/
+.DS_Store
